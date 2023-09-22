@@ -12,13 +12,7 @@ function App() {
   };
 
   return (
-    <Box
-      width="clamp(400px, 70%, 50rem) "
-      margin="0 auto"
-      borderRadius="8px"
-      overflow="hidden"
-      boxShadow="1px 1px 15px 4px rgba(0, 0, 0, .1)"
-    >
+    <Box style={styles}>
       <Top />
       <Bottom />
     </Box>
