@@ -30,7 +30,7 @@ const SignUp = () => {
         </Text>
       </Flex>
       <Button
-        width="90%"
+        width="100%"
         paddingY={6}
         fontSize="lg"
         bgColor="hsl(71, 73%, 54%)"
